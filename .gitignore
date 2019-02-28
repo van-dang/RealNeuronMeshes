@@ -1,4 +1,7 @@
 # Prerequisites
+*~
+*.msh
+
 *.d
 
 # Object files
