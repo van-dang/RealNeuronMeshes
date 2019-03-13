@@ -1,35 +1,36 @@
-files="03a_spindle2aFI_dendrites.msh
-03a_spindle2aFI_soma.msh
-03a_spindle6aFI_dendrites.msh
-03a_spindle6aFI_soma.msh
-12o_spindle9aFI_dendrites.msh
-12o_spindle9aFI_soma.msh
-13o_spindle10aFI_dendrites.msh
-13o_spindle10aFI_soma.msh
-19o_spindle14aFI_dendrites.msh
-19o_spindle14aFI_soma.msh
-21o_spindle15aFI_dendrites.msh
-21o_spindle15aFI_soma.msh
-23o_spindle16aFI_dendrites.msh
-23o_spindle16aFI_soma.msh
-25o_spindle17aFI_dendrites.msh
-25o_spindle17aFI_soma.msh
-26o_spindle18aFI_dendrites.msh
-26o_spindle18aFI_soma.msh
-27o_spindle19aFI_dendrites.msh
-27o_spindle19aFI_soma.msh
-28o_spindle20aFI_dendrites.msh
-28o_spindle20aFI_soma.msh
-28o_spindle21aFI_dendrites.msh
-28o_spindle21aFI_soma.msh
-29o_spindle22aFI_dendrites.msh
-29o_spindle22aFI_soma.msh
-30o_spindle23aFI_dendrites.msh
-30o_spindle23aFI_soma.msh"
+files="03a_spindle2aFI
+03a_spindle6aFI
+03b_spindle4aACC
+03b_spindle5aACC
+03b_spindle6aACC
+03b_spindle7aACC
+04b_spindle3aFI
+05b_spindle5aFI
+06b_spindle8aACC
+07b_spindle9aACC
+08a_spindle13aACC
+09o_spindle7aFI
+09o_spindle8aFI
+10a_spindle18aACC
+12a_spindle19aACC
+12o_spindle9aFI
+13o_spindle10aFI
+15o_spindle12aFI
+16o_spindle13aFI
+19o_spindle14aFI
+21o_spindle15aFI
+23o_spindle16aFI
+25o_spindle17aFI
+26o_spindle18aFI
+27o_spindle19aFI
+28o_spindle20aFI
+28o_spindle21aFI
+29o_spindle22aFI
+30o_spindle23aFI
+"
+
 for f in $files
 do
-    echo $f
-    # scp vdnguyen@hpc106.csc.kth.se:/NOBACKUP/vdnguyen/Pyramidal_Neurons/xml_files/ACC/$f .
-    zip $f.zip $f
-    # rm $f
+    zip ${f}_soma.msh.zip ${f}_soma.msh
+    zip ${f}_dendrites.msh.zip ${f}_dendrites.msh
 done
