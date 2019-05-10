@@ -13,5 +13,9 @@ pyramidals: https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_m
 
 spindles  : https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/spindles
 
+## Volume mesh
 
+The whole pyramidals: https://github.com/van-dang/NeuronVolumeMeshes/tree/master/volume_meshes/pyramidals
+
+The whole spindles   : https://github.com/van-dang/NeuronVolumeMeshes/tree/master/volume_meshes/spindles
 
