@@ -9,16 +9,22 @@ For further investigations of diffusion inside soma and dendrites, we have also 
 
 ## Surface meshes
 
-pyramidals: https://github.com/van-dang/RealNeuronMeshes/tree/master/surface_meshes/pyramidals
+#### pyramidals
+https://github.com/van-dang/RealNeuronMeshes/tree/master/surface_meshes/pyramidals
 
-spindles  : https://github.com/van-dang/RealNeuronMeshes/tree/master/surface_meshes/spindles
+#### spindles  
+https://github.com/van-dang/RealNeuronMeshes/tree/master/surface_meshes/spindles
 
 ## Volume mesh
 
-The whole pyramidals: https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/pyramidals
+#### The whole pyramidals
+https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/pyramidals
 
-The whole spindles   : https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/spindles
+#### The whole spindles  
+https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/spindles
 
-The separated pyramidals: https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/separated_pyramidals
+#### The separated pyramidals
+https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/separated_pyramidals
 
-The separated spindles   : https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/separated_spindles
+#### The separated spindles  
+https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/separated_spindles
