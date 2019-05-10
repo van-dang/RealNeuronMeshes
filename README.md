@@ -19,6 +19,6 @@ The whole pyramidals: https://github.com/van-dang/RealNeuronMeshes/tree/master/v
 
 The whole spindles   : https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/spindles
 
-The broken pyramidals: https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/pyramidals
+The separated pyramidals: https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/separated_pyramidals
 
-The broken spindles   : https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/spindles
+The separated spindles   : https://github.com/van-dang/RealNeuronMeshes/tree/master/volume_meshes/separated_spindles
