@@ -9,9 +9,9 @@ For further investigations of diffusion inside soma and dendrites, we have also 
 
 ## Surface meshes
 
-### pyramidals: https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/pyramidals
+pyramidals: https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/pyramidals
 
-### spindles  : https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/spindles
+spindles  : https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/spindles
 
 
 
