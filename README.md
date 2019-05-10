@@ -7,7 +7,7 @@ We started with SWC files (morphological reconstructions) published in the large
 For further investigations of diffusion inside soma and dendrites, we have also broken the neurons into two parts.
 
 
-## Surface meshes
+## Wrapped surface meshes
 
 #### pyramidals
 https://github.com/van-dang/RealNeuronMeshes/tree/master/surface_meshes/pyramidals
