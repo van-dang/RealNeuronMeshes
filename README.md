@@ -7,9 +7,11 @@ We started with SWC files (morphological reconstructions) published in the large
 For further investigations of diffusion inside soma and dendrites, we have also broken the neurons into two parts.
 
 
-Surface meshes of pyramidals: https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/pyramidals
+## Surface meshes
 
-Surface meshes of spindles  : https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/spindles
+### pyramidals: https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/pyramidals
+
+### spindles  : https://github.com/van-dang/NeuronVolumeMeshes/tree/master/surface_meshes/spindles
 
 
 
