@@ -8,15 +8,18 @@ mylist=['03a_spindle2aFI.msh',   '03b_spindle7aACC.msh',  '08a_spindle13aACC.msh
 ];
 
 
-mydir="../msh_files/"
-
 for f in mylist:
     filename, file_extension = os.path.splitext(f)
+    os.system("scp vdnguyen@hpc106.csc.kth.se:/NOBACKUP/vdnguyen/Von_Economo_neurons/surface_mesh/"+filename+"000000.vtu .")
 
     os.system("meshio-convert "+filename+"000000.vtu "+filename+"000000.vtk")
 
     os.system("python vtk2stl.py "+filename+"000000.vtk "+filename+".stl")
+    
+    os.system("zip "+filename+".stl.zip "+ filename+".stl");
 
-    # os.system("rm *000000.*");
+    os.system("rm *.stl");
+
+    os.system("rm *000000.*");
 
 

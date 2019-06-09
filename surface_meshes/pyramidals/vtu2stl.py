@@ -28,4 +28,10 @@ for f in mylist:
 
     os.system("python vtk2stl.py "+filename+"000000.vtk "+filename+".stl")
 
+    os.system("zip "+filename+".stl.zip "+ filename+".stl");
+
+    os.system("rm *.stl");
+
+    os.system("rm *000000.*");
+
     # os.system("rm *000000.*");
